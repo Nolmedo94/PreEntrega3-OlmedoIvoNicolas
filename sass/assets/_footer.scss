@@ -1,0 +1,20 @@
+// Variables
+$footer-width: 100%;
+$footer-text-align: center;
+$footer-background-color: rgb(236, 234, 234);
+$main-footer-title-color: rgb(0, 0, 0);
+$main-footer-title-font-style: italic;
+$main-footer-title-margin: 10px;
+
+// Estilos
+footer {
+  width: $footer-width;
+  text-align: $footer-text-align;
+  background-color: $footer-background-color;
+
+  .main-footer__title {
+    color: $main-footer-title-color;
+    font-style: $main-footer-title-font-style;
+    margin: $main-footer-title-margin;
+  }
+}

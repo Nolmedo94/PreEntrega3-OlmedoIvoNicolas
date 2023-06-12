@@ -1,0 +1,18 @@
+// Estilos
+.zapatilla {
+margin-top: 200px;
+width: 800px;
+animation: zapatilla_animacion ease-in-out infinite 4s;
+}
+
+@keyframes zapatilla_animacion {
+0% {
+transform: translateY(-10%);
+}
+50% {
+transform: translateY(0%);
+}
+100% {
+transform: translateY(-10%);
+}
+}

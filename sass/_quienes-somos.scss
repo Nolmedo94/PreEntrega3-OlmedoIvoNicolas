@@ -1,0 +1,28 @@
+// Variables
+$container-qs-text-align: center;
+$container-qs-margin-top: 20px;
+$container-qs-font-size: large;
+$titulo-secundario-text-align: center;
+$titulo-secundario-font-size: xx-large;
+$img-qs-width: 500px;
+$container-qs-background-color: #5cd1d1;
+
+// Estilos
+.container-qs {
+text-align: $container-qs-text-align;
+margin-top: $container-qs-margin-top;
+font-size: $container-qs-font-size;
+}
+
+.titulo-secundario {
+text-align: $titulo-secundario-text-align;
+font-size: $titulo-secundario-font-size;
+}
+
+.img-qs {
+width: $img-qs-width;
+}
+
+.container__qs {
+background-color: $container-qs-background-color;
+}

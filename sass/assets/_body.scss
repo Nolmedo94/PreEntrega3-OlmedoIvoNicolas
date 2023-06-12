@@ -1,0 +1,35 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0%;
+background-color: #5cd1d1;
+padding-bottom: 0;
+font-family: var(--bs-body-font-family) none;
+display: grid;
+min-height: 100vh;
+grid-template-rows: auto 1fr auto;
+position: relative;
+}
+
+h1 {
+font-family: 'Dancing Script', cursiva;
+font-weight: bolder;
+color: blue;
+}
+
+h2 {
+color: blue;
+}
+
+.logo_wsp {
+width: 100px;
+}
+
+.logo-wsp {
+position: fixed;
+left: 1800px;
+top: 780px;
+cursor: pointer;
+}

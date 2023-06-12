@@ -1,0 +1,30 @@
+// Variables
+$tarjetas-pf-width: 40px;
+$preguntas-pf-font-size: 1.5rem;
+$preguntas-pf-font-weight: bolder;
+$preguntas-pf-margin: 40px;
+$preguntas-pf-text-align: center;
+$respuestas-pf-text-align: center;
+$respuestas-pf-font-weight: bolder;
+$container-pf-background-color: #5cd1d1;
+
+// Estilos
+.tarjetas-pf {
+width: $tarjetas-pf-width;
+}
+
+.preguntas-pf {
+font-size: $preguntas-pf-font-size;
+font-weight: $preguntas-pf-font-weight;
+margin: $preguntas-pf-margin;
+text-align: $preguntas-pf-text-align;
+}
+
+.respuestas-pf {
+text-align: $respuestas-pf-text-align;
+font-weight: $respuestas-pf-font-weight;
+}
+
+.container-pf {
+background-color: $container-pf-background-color;
+}
